@@ -1,0 +1,100 @@
+/* MARINETE =================== */
+body {
+}
+#container {
+  max-width: 1120px;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+#header {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.texto-card {
+  width: 40%;
+}
+
+.madrinha {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.madrinha h1 {
+  font-size: 4em;
+  margin: 20px 0 20px 20px;
+  font-family: Pacifico;
+}
+#imagens h1 {
+  font-size: 4em;
+  margin: 20px 0 20px 0px;
+  font-family: Pacifico;
+}
+.info ul li:first-child {
+  font-size: 1.5em;
+}
+#imagens {
+  margin-left: 15px;
+}
+#imagens img {
+  margin: 20px 10px;
+}
+#chat {
+  margin-top: 20px;
+  max-width: 550px;
+  box-shadow: 0 0 1em #707070;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-between;
+}
+#chat-header {
+  background-color: #d0e3fc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#chat-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#chat-button input {
+  width: 320px;
+  border: 2px solid #41638f;
+  border-radius: 10px;
+  height: 45px;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+::-webkit-input-placeholder {
+  color: #41638f;
+  text-align: center;
+}
+
+#chat-header h1 {
+  font-size: 2.4em;
+  font-family: Pacifico;
+}
+#chat.ativo {
+  opacity: 0;
+  display: none;
+}
+#chat .texto-card {
+  width: 720px;
+}
+@media (max-width: 1113px) {
+  #container {
+    flex-wrap: wrap;
+  }
+  .texto-card hr {
+    width: 250px;
+    margin: 10px auto 0 auto;
+  }
+  .texto-card {
+    width: 70%;
+  }
+  #chat {
+    width: 330px;
+    margin: 0 auto;
+  }
+}
