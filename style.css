@@ -106,7 +106,7 @@ th {
 #lista-header a:nth-child(1):hover::after {
   content: "";
   display: block;
-  margin-left: 15px;
+  margin-left: 8px;
   width: 80%;
   height: 3px;
   background: #cc99ff;
@@ -115,12 +115,10 @@ th {
   content: "";
   display: block;
   margin-left: 12px;
-  width: 80%;
+  width: 67px;
   height: 3px;
+  margin-top: -15px;
   background: #cc99ff;
-}
-sub {
-  margin-bottom: 20px;
 }
 #lista-header a:nth-child(3):hover::after {
   content: "";
@@ -152,6 +150,9 @@ sub {
   font-family: titillium Web;
   font-size: 2em;
   font-weight: 400;
+}
+sub {
+  margin-bottom: 20px;
 }
 /** Card ================= **/
 .cards {
@@ -342,20 +343,33 @@ ul {
   font-size: 1.8em;
 }
 #cordefundo {
-  background-color: #fc3465;
+  background-color: #fbd0da;
   padding: 20px;
   margin-top: 50px;
 }
 #contrate {
   max-width: 1020px;
   display: flex;
-  margin: 40px auto 40px auto;
+  margin: 0px auto 0px auto;
   justify-content: space-between;
   align-items: center;
 }
 #contrate p {
   font-family: Titillium Web;
   font-size: 1.5rem;
+  font-weight: bold;
+  color: #5f071c;
+  margin-top: -10px;
+}
+#win {
+  margin-left: 140px;
+  font-family: Titillium Web;
+  font-size: 1.1rem;
+  margin-top: -25px;
+  color: #5f071c;
+  margin-bottom: 30px;
+}
+#winsocial {
   font-weight: bold;
 }
 #contrate a {
@@ -366,7 +380,12 @@ ul {
   padding: 10px;
   border-radius: 10px;
   text-align: center;
-  color: black;
+  color: #5f071c;
+  margin-top: 20px;
+}
+#contrate a:hover {
+  background-color: #fc3465;
+  color: white;
 }
 #container-footer {
   display: flex;
@@ -382,6 +401,7 @@ ul {
   justify-content: center;
   margin-bottom: 40px;
   margin-left: 100px;
+  color: #5f071c;
 }
 #textos-footer img {
   max-width: 400px;
@@ -394,6 +414,7 @@ ul {
   font-weight: bold;
   font-size: 1.5rem;
   margin-top: 150px;
+  color: #5f071c;
 }
 
 #textos-footer p {
@@ -402,6 +423,7 @@ ul {
   font-size: 1.5rem;
   text-align: center;
   margin: 20px 0;
+  color: #5f071c;
 }
 #img-footer {
   display: flex;
@@ -444,6 +466,15 @@ ul {
   #colaboradores p {
     margin-top: 30px;
   }
+  #contrate {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #win {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
 }
 footer {
   background-color: #fc3465;
@@ -458,6 +489,7 @@ footer {
 #footer p {
   font-family: Titillium Web;
   font-size: 1rem;
+  color: white;
 }
 #footer ul {
   display: flex;
@@ -466,6 +498,7 @@ footer {
   margin: 0 20px;
   font-family: Titillium Web;
   font-size: 1rem;
+  color: white;
 }
 @media (max-width: 720px) {
   #footer {

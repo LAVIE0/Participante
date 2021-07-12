@@ -75,6 +75,7 @@ body {
   font-size: 2.4em;
   font-family: Pacifico;
 }
+
 #chat.ativo {
   opacity: 0;
   display: none;
@@ -97,4 +98,7 @@ body {
     width: 330px;
     margin: 0 auto;
   }
+}
+#img-chat {
+  margin-top: 20px;
 }
